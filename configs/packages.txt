@@ -1,50 +1,50 @@
 #kmod
-CONFIG_PACKAGE_kmod-usb-net-rndis=y
+CONFIG_PACKAGE_kmod-usb-net-rndis=n
 
 
 #themes
 CONFIG_PACKAGE_luci-theme-argon=y
 
 #luci
-# CONFIG_PACKAGE_luci-app-accesscontrol=n
-# CONFIG_PACKAGE_luci-app-adbyby-plus=n
-# CONFIG_PACKAGE_luci-app-adguardhome=n
+CONFIG_PACKAGE_luci-app-accesscontrol=n
+CONFIG_PACKAGE_luci-app-adbyby-plus=n
+CONFIG_PACKAGE_luci-app-adguardhome=n
 # CONFIG_PACKAGE_luci-app-adguardhome_INCLUDE_binary is not set
 CONFIG_PACKAGE_luci-app-alist=y
-# CONFIG_PACKAGE_luci-app-aliyundrive-fuse=n
-# CONFIG_PACKAGE_luci-app-aliyundrive-webdav=n
+CONFIG_PACKAGE_luci-app-aliyundrive-fuse=n
+CONFIG_PACKAGE_luci-app-aliyundrive-webdav=n
 CONFIG_PACKAGE_luci-app-autoreboot=y
 CONFIG_PACKAGE_rclone=y
-# CONFIG_PACKAGE_luci-app-ddns-go=n
+CONFIG_PACKAGE_luci-app-ddns-go=n
 # CONFIG_PACKAGE_luci-app-ddns is not set
-# CONFIG_PACKAGE_luci-app-ddnsto=n
-# CONFIG_PACKAGE_luci-app-diskman=y
+CONFIG_PACKAGE_luci-app-ddnsto=n
+CONFIG_PACKAGE_luci-app-diskman=n
 # CONFIG_PACKAGE_luci-app-ipsec-server=y
-# CONFIG_PACKAGE_luci-app-lucky=n
-# CONFIG_PACKAGE_luci-app-mosdns=n
-# CONFIG_PACKAGE_luci-app-netdata=y
-# CONFIG_PACKAGE_luci-app-nfs=y
+CONFIG_PACKAGE_luci-app-lucky=n
+CONFIG_PACKAGE_luci-app-mosdns=n
+CONFIG_PACKAGE_luci-app-netdata=n
+CONFIG_PACKAGE_luci-app-nfs=n
 # CONFIG_PACKAGE_luci-app-nlbwmon is not set
 CONFIG_PACKAGE_luci-app-openclash=y
-# CONFIG_PACKAGE_luci-app-openvpn=y
-# CONFIG_PACKAGE_luci-app-passwall=n
-# CONFIG_PACKAGE_luci-app-passwall2=n
-# CONFIG_PACKAGE_luci-app-pptp-server=y
-# CONFIG_PACKAGE_luci-app-pushbot=n
-# CONFIG_PACKAGE_luci-app-ramfree=y
-# CONFIG_PACKAGE_luci-app-samba4=y
-# CONFIG_PACKAGE_luci-app-smartdns=y
-# CONFIG_PACKAGE_luci-app-ssr-plus=n
-# CONFIG_PACKAGE_luci-app-tencentddns=n
-# CONFIG_PACKAGE_luci-app-ttyd=y
-# CONFIG_PACKAGE_luci-app-udpxy=y
-# CONFIG_PACKAGE_luci-app-unblockmusic=n
+CONFIG_PACKAGE_luci-app-openvpn=n
+CONFIG_PACKAGE_luci-app-passwall=n
+CONFIG_PACKAGE_luci-app-passwall2=n
+CONFIG_PACKAGE_luci-app-pptp-server=n
+CONFIG_PACKAGE_luci-app-pushbot=n
+CONFIG_PACKAGE_luci-app-ramfree=y
+CONFIG_PACKAGE_luci-app-samba4=y
+CONFIG_PACKAGE_luci-app-smartdns=n
+CONFIG_PACKAGE_luci-app-ssr-plus=n
+CONFIG_PACKAGE_luci-app-tencentddns=n
+CONFIG_PACKAGE_luci-app-ttyd=n
+CONFIG_PACKAGE_luci-app-udpxy=n
+CONFIG_PACKAGE_luci-app-unblockmusic=n
 # CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_Go=n
 # CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_NodeJS is not set
-# CONFIG_PACKAGE_luci-app-vlmcsd=n
-# CONFIG_PACKAGE_luci-app-wireguard=n
-# CONFIG_PACKAGE_luci-app-wol=y
-# CONFIG_PACKAGE_luci-app-wrtbwmon=n
+CONFIG_PACKAGE_luci-app-vlmcsd=n
+CONFIG_PACKAGE_luci-app-wireguard=n
+CONFIG_PACKAGE_luci-app-wol=n
+CONFIG_PACKAGE_luci-app-wrtbwmon=n
 CONFIG_PACKAGE_luci-app-zerotier=y
 
 
