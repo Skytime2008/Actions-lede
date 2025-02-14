@@ -14,6 +14,3 @@ CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_widora_mangopi-m28k=n
 #rootfs
 CONFIG_TARGET_ROOTFS_EXT4FS=n
 CONFIG_TARGET_ROOTFS_PARTSIZE=300
-
-#luci
-CONFIG_PACKAGE_luci-app-cpufreq=y
