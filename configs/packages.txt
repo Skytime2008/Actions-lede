@@ -1,3 +1,5 @@
+CONFIG_PACKAGE_luci-app-cpufreq=y
+
 #kmod
 CONFIG_PACKAGE_kmod-usb-net-rndis=n
 
