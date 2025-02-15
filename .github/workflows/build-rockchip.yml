@@ -79,6 +79,7 @@ jobs:
         cd openwrt
         ./scripts/feeds update -a
         ./scripts/feeds install -a
+        ./scripts/feeds install -p openwrt-mt7601u
 
     - name: 导入补丁和配置 & 下载文件
       run: |
