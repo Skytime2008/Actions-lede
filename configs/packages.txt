@@ -81,7 +81,9 @@ CONFIG_PACKAGE_hostapd-mini=y
 CONFIG_PACKAGE_wpa-supplicant=y
 CONFIG_PACKAGE_wpad=y
 CONFIG_PACKAGE_wpad-openssl=y
-wpad-basic
+CONFIG_PACKAGE_wpad-basic=y
+
+
 
 
 
