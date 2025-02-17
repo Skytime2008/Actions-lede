@@ -1,10 +1,4 @@
 # 仅供学习、查阅资料使用。
-**运行编译时间：allwinner 周二、rockchip 周三、mediatek 周四、x86 周五**<br>
-
-x86平台：不用说了吧~<br>
-allwinner平台：请看 releases<br>
-mediatek平台：还是看 releases<br>
-rockchip平台：太多了 去看看 releases<br>
 
 默认ip地址：192.168.8.1<br>默认开启 smartdns（海外端口6553）<br>Openclash已下载好clash内核（mtk平台不下载meta core）<br>
 ![github3](doc/github3.png)<br>
