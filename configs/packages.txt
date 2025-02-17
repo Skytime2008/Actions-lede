@@ -61,7 +61,6 @@ CONFIG_PACKAGE_kmod-phy-realtek=y
 
 CONFIG_PACKAGE_kmod-mac80211=y
 CONFIG_PACKAGE_kmod-cfg80211=y
-CONFIG_PACKAGE_ucode-mod-nl80211=y
 
 CONFIG_PACKAGE_usb-modeswitch=y
 CONFIG_PACKAGE_usbutils=y
@@ -111,8 +110,8 @@ CONFIG_PACKAGE_wpad-basic=y
 CONFIG_PACKAGE_wpad-basic-openssl=y
 CONFIG_PACKAGE_wpad-basic-wolfssl=y
 
-CONFIG_PACKAGE_libucode20230711
-CONFIG_PACKAGE_libmbedtls12=y
+CONFIG_PACKAGE_libucode=y
+CONFIG_PACKAGE_libmbedtls=y
 CONFIG_PACKAGE_kmod-crypto-aead=y
 CONFIG_PACKAGE_kmod-crypto-ccm=y
 CONFIG_PACKAGE_kmod-crypto-cmac=y
