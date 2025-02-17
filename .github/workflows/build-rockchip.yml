@@ -93,13 +93,22 @@ jobs:
         make download -j8 V=10
         find dl -size -1024c -exec ls -l {} \;
         find dl -size -1024c -exec rm -f {} \;
+        
+    - name: Custom Packages
+      run: |
+        cd ./wrt/package/
 
+        
     - name: 执行脚本
       run: |
         cd openwrt
         chmod +x $GITHUB_WORKSPACE/$SETTINGS_SH && $GITHUB_WORKSPACE/$SETTINGS_SH
         chmod +x $GITHUB_WORKSPACE/$PACKAGES_SH && $GITHUB_WORKSPACE/$PACKAGES_SH
         chmod +x $GITHUB_WORKSPACE/$CLASH_CORE_SH && $GITHUB_WORKSPACE/$CLASH_CORE_SH
+
+        chmod +x && $GITHUB_WORKSPACE/Scripts/Packages.sh && $GITHUB_WORKSPACE/Scripts/Packages.sh
+        chmod +x && $GITHUB_WORKSPACE/Scripts/Handles.sh && $GITHUB_WORKSPACE/Scripts/Handles.sh
+        
         make defconfig
 
     - name: 空间使用情况2
