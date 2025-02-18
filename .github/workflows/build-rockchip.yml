@@ -106,7 +106,6 @@ jobs:
         chmod +x $GITHUB_WORKSPACE/$PACKAGES_SH && $GITHUB_WORKSPACE/$PACKAGES_SH
         chmod +x $GITHUB_WORKSPACE/$CLASH_CORE_SH && $GITHUB_WORKSPACE/$CLASH_CORE_SH
 
-        chmod +x && $GITHUB_WORKSPACE/Scripts/Packages.sh && $GITHUB_WORKSPACE/Scripts/Packages.sh
         chmod +x && $GITHUB_WORKSPACE/Scripts/Handles.sh && $GITHUB_WORKSPACE/Scripts/Handles.sh
         
         make defconfig
